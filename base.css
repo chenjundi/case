@@ -1,0 +1,117 @@
+
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    /*background-color: #e5e5e5;*/
+    font-size: 12px;
+    color: #333;
+    font-family: "MicroSoft YaHei", "sans-serif";
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #333;
+}
+
+input, textarea {
+    border: none;
+    outline: none;
+    resize: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+s, i, em, del {
+    font-style: normal;
+    text-decoration: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix::after,
+.clearfix::before {
+    content: ".";
+    line-height: 0;
+    height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+/*style*/
+
+h3 {
+    text-align: center;
+    font-size: 16px;
+    padding: 0.266667rem;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+
+h3 img {
+    width: 16px;
+    position: absolute;
+    right: 0.266667rem;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.divcss {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    display: none;
+}
+
+.divcss li {
+    width: 33.33%;
+    float: left;
+    color: #000;
+    font-size: 12px;
+    text-align: center;
+    margin: 0.266667rem 0;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+.divcss .date {
+    color: #f00;
+    width: 100%;
+    text-align: left;
+    padding-left: 0.266667rem;
+}
+
+.copyright {
+    margin-top: 0.666667rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
